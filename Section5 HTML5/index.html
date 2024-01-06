@@ -66,7 +66,7 @@
 
 <!--Tabelas-->
 <h1 style=" background-color: rgb(255, 174, 0);">Tabelas</h1>
-<table border="1">
+<table border="1" width="100%">
     <tr> <!--table row-->
         <th>Nome</th> <!--table header-->
         <th>Sobrenome</th>
@@ -94,4 +94,88 @@
         <td>47</td>
         <td>Mucuri</td>
     </tr>
+
+    <tr>
+        <td>IMAGEM</td>
+        <td><img src="images/bootstrap.webp" width="200" alt="Exemplo de imagem na tabela"></td>
+        <td>EXEMPLO</td>
+        <td>IMAGEM</td>
+    </tr>
+
+    <tr>
+        <td rowspan="2">Desconto</td>
+        <td>Cupom 1</td>
+        <td colspan="2">R$ 10,00</td>
+    </tr>
+
+    <tr>
+        <td>Cupom 2</td>
+        <td colspan="2">R$ 10,00</td>
+    </tr>
 </table>
+
+<!--Formularios-->
+<h1 style=" background-color: rgb(255, 208, 0);">Formulários</h1>
+<h2>Entre:</h2>
+<form action="">
+    <label for="loginUser">Login:</label> <br>
+    <input type="text" id="loginUser"> <br>
+
+    <label for="passwordUser">Senha:</label> <br>
+    <input type="password" id="passwordUser"> <br> <br>
+
+    <input type="submit" value="Logar">
+</form>
+
+    <hr>
+<form action="">
+
+    <h2>Cadastre-se</h2>
+    <label for="cadastroUser">Login:</label> <br>
+    <input type="text" id="cadastroUser"> <br> <br>
+
+    <label for="">Sexo:</label> <br>
+    <input type="radio" name="sexo" value="sexoMasculino">Masculino <br>
+    <input type="radio" name="sexo" value="sexoFeminino">Feminino <br>
+
+    <h2>Interesses</h2>
+    <input type="checkbox" name="interesses" id="interesseHTML"> 
+    <label for="interesseHTML">HTML</label> <br>
+
+    <input type="checkbox" name="interesses" id="interesseCSS"> 
+    <label for="interesseCSS">CSS</label> <br>
+
+    <input type="checkbox" name="interesses" id="interesseJS"> 
+    <label for="interesseJS">JavaScript</label> <br>
+
+    <input type="checkbox" name="interesses" id="interessePHP"> 
+    <label for="interessePHP">PHP</label> <br>
+
+    <input type="checkbox" name="interesses" id="interesseBS"> 
+    <label for="interesseBS">Bootstrap</label> <br>
+
+    <h2>Estado</h2>
+    <select name="estado">
+        <option value="sp">SP</option>
+        <option value="es">ES</option>
+        <option value="sc">SC</option>
+        <option value="ba">BA</option>
+    </select>
+
+    <h2>Observações</h2>
+    <textarea name="" id="" cols="50" rows="10"></textarea> <br> <br>
+
+    <input type="submit" value="Cadastrar">
+
+</form>
+
+<!--Caracteres Especiais-->
+<h1 style=" background-color: rgb(251, 255, 0);">Caracteres Especiais</h1>
+
+Comando para maior que  &gt; <br>
+Comando para menor que 	&lt; <br>
+Comando para ampersand &amp; <br>
+Comando para double quotation mark   &quot; <br>
+Comando para single quotation mark  &apos; <br>
+Comando para copyright 	&copy; <br>
+Comando para Espaço Invisivel 	&nbsp; <br>
